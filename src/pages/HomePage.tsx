@@ -3,7 +3,7 @@ import Terminal from "../components/Terminal"
 
 export default function HomePage() {
   return (
-    <div className="bg-wallpaper bg-cover grid grid-rows-[93%,7%] h-screen  ">
+    <div className="bg-[url('../src/assets/img/kali.png')] bg-cover grid grid-rows-[93%,7%] h-screen  ">
 
       <div className="text-white flex justify-center items-center">
         <Terminal></Terminal>
